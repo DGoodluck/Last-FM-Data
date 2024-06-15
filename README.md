@@ -19,8 +19,8 @@ Visualize personal music listening data from Last.FM to gain insights into liste
 3. **Install Project**:
 
     - Clone Project:
-        git clone <repository-url>
-        cd <repository-directory>
+        git clone DGoodluck/Last-FM-Data
+        cd DGoodluck/Last-FM-Data
         
     - From root directory run with Docker Compose
         docker-compose up --build
