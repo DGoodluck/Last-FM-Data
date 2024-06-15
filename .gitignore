@@ -1,4 +1,8 @@
 .csv
+.md
+output.json
+.pytest_cache
+.env
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -115,7 +119,6 @@ celerybeat-schedule
 celerybeat.pid
 
 # SageMath parsed files
-*.sage.py
 
 # Environments
 .env

@@ -1,0 +1,18 @@
+version: "2.27"
+services:
+  server:
+    build: ./Backend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./Backend:/app
+    environment:
+      FLASK_ENV: developement
+  web:
+    build: ./Frontend/Last.FM Clone
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./Frontend/Last.FM Clone:/app
+    depends_on:
+      - server

@@ -1,0 +1,8 @@
+.app__subheader{
+    display: flex;
+}
+.app__subheader_last-played{
+    width: fit-content;
+    margin-left: 65px;
+    font-style: italic;
+}
